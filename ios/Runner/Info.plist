@@ -2,6 +2,32 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>The location for your favorite place 1</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>The location for your favorite place 2</string>
+	<key>NSLocationUsageDescription</key>
+	<string>The location for your favorite place 3</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>The location for your favorite place 4</string>
+	<key>NSAppTransportSecurity</key>
+	<true/>
+	<key>NSAllowsArbitraryLoads</key>
+	<true/>
+	<key>io.flutter.embedded_views_preview</key>
+	<true/>
+	<key>GoMapAPIKey</key>
+	<string>AlzaSyCTdDkXHOpQkxlcUADrn7stAEnhYHEHT5a</string>
+	<key>GMSApiKey</key>
+	<string>AlzaSyCTdDkXHOpQkxlcUADrn7stAEnhYHEHT5a</string>
+
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app required access for photo library usage</string>
+	<key>NSCameraUsageDescription</key>
+	<string>This app required access for the camera</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Pick your favorite place images</string>
+	
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
@@ -45,5 +71,7 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>MinimumOSVersion</key>
+  	<string>14.0</string>
 </dict>
 </plist>
