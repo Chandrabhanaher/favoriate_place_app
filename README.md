@@ -5,8 +5,8 @@ A new Flutter project.
 # Functionality
 - Image picker
 - Google fonts
- -Riverpod
- -SQFlite local database
+- Riverpod
+- SQFlite local database
 
 ## iOS Setup
 
